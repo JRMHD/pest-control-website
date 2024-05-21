@@ -66,7 +66,7 @@
                     <div class="contact-block mb-4 mb-lg-0">
                         <i class="icofont-support-faq"></i>
                         <h5>Email Us</h5>
-                        info@hyperverm.com
+                        info@HypervermPestControl.com
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
@@ -93,7 +93,7 @@
             </div>
 
 
-           
+
 
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-10 col-sm-12">

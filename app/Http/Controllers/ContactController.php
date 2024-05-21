@@ -21,7 +21,7 @@ class ContactController extends Controller
 
         $contact = Contact::create($validatedData);
 
-        Mail::to('info@hyperverm.com')->send(new ContactMail($contact));
+        Mail::to('info.hyperverm@gmail.com')->send(new ContactMail($contact));
 
         return redirect()->back()->with('success', 'Thank you for your message. We will get back to you soon.');
     }

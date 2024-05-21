@@ -37,7 +37,7 @@ class AppointmentController extends Controller
 
         $appointment = Appointment::create($validatedData);
 
-        Mail::to('info@hyperverm.com')->send(new AppointmentMail($appointment));
+        Mail::to('info.hyperverm@gmail.com')->send(new AppointmentMail($appointment));
 
         return redirect()->back()->with('success', 'Your appointment request has been submitted successfully.');
     }

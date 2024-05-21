@@ -5,8 +5,8 @@
                  <div class="col-lg-6">
                      <ul class="top-bar-info list-inline-item pl-0 mb-0">
                          <li class="list-inline-item">
-                             <a href="mailto:info@Hyperverm.com"><i
-                                     class="icofont-support-faq mr-2"></i>info@Hyperverm.com</a>
+                             <a href="mailto:info@HypervermPestControl.com"><i
+                                     class="icofont-support-faq mr-2"></i>info@HypervermPestControl.com</a>
                          </li>
                          <li class="list-inline-item">
                              <i class="icofont-location-pin mr-2"></i>Nairobi,Kenya

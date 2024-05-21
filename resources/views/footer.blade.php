@@ -54,7 +54,7 @@
                              <span class="h6 mb-0">24/7 Email Support</span>
                          </div>
                          <h4 class="mt-2">
-                             <a href="mailto:support@jrmhd.tech">info@Hyperverm.com</a>
+                             <a href="mailto:info@HypervermPestControl.com">info@HypervermPestControl.com</a>
                          </h4>
                      </div>
 

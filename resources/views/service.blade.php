@@ -142,7 +142,7 @@
                             your needs. Say goodbye to pests and ensure a safe environment
                             for your home or business.
                         </p>
-                        <a href="{{ url('appoinment') }}"> class="btn btn-main-2 btn-round-full">
+                        <a href="{{ url('appoinment') }}" class="btn btn-main-2 btn-round-full">
                             Schedule a Service<i class="icofont-simple-right ml-2"></i>
                         </a>
                     </div>
