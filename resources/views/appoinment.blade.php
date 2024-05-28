@@ -57,7 +57,9 @@
                             <!-- Updated icon to represent pest control -->
                         </div>
                         <span class="h3">Call for Pest Emergency Service!</span>
-                        <h2 class="text-color mt-3">+254 728 094456</h2>
+                        <h3 class="text-color mt-3">+254 728 094456</h3>
+                        <h3 class="text-color mt-3">+254 758 621755</h3>
+                        <h3 class="text-color mt-3">+254 796 701590</h3>
                         <!-- Updated phone number -->
                     </div>
                 </div>

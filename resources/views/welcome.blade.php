@@ -38,8 +38,96 @@
                     <div class="block">
                         <div class="divider mb-3"></div>
                         <span class="text-uppercase text-sm letter-spacing">Professional Pest Control Services</span>
-                        <h1 class="mb-3 mt-3">Your Trusted Partner in Pest Management</h1>
+                        <h1 class="mb-3 mt-3">
+                            <span class="typing-text"></span><span class="cursor">|</span>
+                        </h1>
+                        <style>
+                            .typing-text {
+                                font-size: 3rem;
+                                font-weight: bold;
+                                white-space: pre-wrap;
+                                /* Allow line breaks */
+                                overflow: hidden;
+                                border-right: 2px solid transparent;
+                                animation: typing 4s steps(40) infinite, caret 0.5s step-end infinite;
+                            }
 
+                            @keyframes typing {
+                                0% {
+                                    width: 0;
+                                }
+
+                                50% {
+                                    width: 100%;
+                                }
+
+                                100% {
+                                    width: 0;
+                                }
+                            }
+
+                            @keyframes caret {
+                                50% {
+                                    border-color: currentColor;
+                                }
+                            }
+
+                            .cursor {
+                                font-size: 3rem;
+                                font-weight: bold;
+                                animation: blink 1s infinite;
+                            }
+
+                            @keyframes blink {
+                                50% {
+                                    opacity: 0;
+                                }
+                            }
+                        </style>
+                        <script>
+                            const typingText = document.querySelector('.typing-text');
+                            const texts = [
+                                'Comprehensive Pest Control\nfor Homes, Aviation, and Maritime Industries',
+                                'Trusted Experts in Residential,\nAirport, and Cargo Facility Sanitization',
+                                'Safeguarding Your Domestic\nand Commercial Spaces from Pests'
+                            ];
+
+                            let charIndex = 0;
+                            let isTyping = true;
+                            let textIndex = 0;
+
+                            function typeText() {
+                                const textToType = texts[textIndex];
+
+                                if (isTyping) {
+                                    if (charIndex < textToType.length) {
+                                        typingText.textContent += textToType.charAt(charIndex);
+                                        charIndex++;
+                                        setTimeout(typeText, 100); // Adjust the typing speed by changing the timeout value
+                                    } else {
+                                        isTyping = false;
+                                        setTimeout(eraseText, 2000); // Delay before starting to erase (adjust as needed)
+                                    }
+                                } else {
+                                    if (charIndex > 0) {
+                                        typingText.textContent = textToType.substring(0, charIndex - 1);
+                                        charIndex--;
+                                        setTimeout(typeText, 50); // Adjust the erasing speed by changing the timeout value
+                                    } else {
+                                        isTyping = true;
+                                        textIndex = (textIndex + 1) % texts.length; // Switch to the next text
+                                        setTimeout(typeText, 1000); // Delay before starting to type again (adjust as needed)
+                                    }
+                                }
+                            }
+
+                            function eraseText() {
+                                isTyping = false;
+                                typeText();
+                            }
+
+                            typeText();
+                        </script>
                         <p class="mb-4 pr-5">
                             We specialize in comprehensive pest control solutions tailored
                             to your needs. Our services effectively eliminate pests from
@@ -47,6 +135,7 @@
                             pest-free environment.
                         </p>
                         <div class="btn-container">
+
                             <a href="{{ url('appoinment') }}" class="btn btn-main-2 btn-icon btn-round-full">Schedule
                                 Service <i class="icofont-simple-right ml-2"></i></a>
                         </div>
@@ -83,13 +172,13 @@
                             <h4 class="mb-3">Convenient Appointment Times</h4>
                             <ul class="w-hours list-unstyled">
                                 <li class="d-flex justify-content-between">
-                                    Monday - Friday : <span>8:00 AM - 6:00 PM</span>
+                                    Monday - Monday : <span>8:00 AM - 6:00 PM</span>
                                 </li>
                                 <li class="d-flex justify-content-between">
                                     Saturday : <span>9:00 AM - 5:00 PM</span>
                                 </li>
                                 <li class="d-flex justify-content-between">
-                                    Sunday : <span>Closed</span>
+                                    Sunday : <span>9:00 AM - 5:00 PM</span>
                                 </li>
                             </ul>
                         </div>
@@ -104,6 +193,11 @@
                                 For urgent pest problems, call our emergency hotline:
                                 <br />
                                 <strong>+254 728 094456</strong>
+                            </p>
+                            <p> <strong>+254 758 621755</strong>
+                            </p>
+                            <p>
+                                <strong>+254 796 701590</strong>
                             </p>
                         </div>
                     </div>

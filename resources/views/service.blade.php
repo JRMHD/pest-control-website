@@ -134,13 +134,14 @@
                     <div class="cta-content">
                         <div class="divider mb-4"></div>
                         <h2 class="mb-5 text-lg">
-                            Get rid of pests with our effective
+                            <span style="color: white;">Get rid of pests with our effective</span>
                             <span class="title-color">pest control services</span>
                         </h2>
                         <p class="mb-4">
-                            Hyperverm offers professional pest control services tailored to
-                            your needs. Say goodbye to pests and ensure a safe environment
-                            for your home or business.
+                            <span style="color: white;">Hyperverm offers professional pest control services tailored to
+                                your needs Say goodbye to pests and ensure a safe environment for your home or business.
+
+                            </span>
                         </p>
                         <a href="{{ url('appoinment') }}" class="btn btn-main-2 btn-round-full">
                             Schedule a Service<i class="icofont-simple-right ml-2"></i>
@@ -150,7 +151,6 @@
             </div>
         </div>
     </section>
-
     <!-- Footer Start -->
     @include('footer')
     <!--

@@ -59,7 +59,9 @@
                     <div class="contact-block mb-4 mb-lg-0">
                         <i class="icofont-live-support"></i>
                         <h5>Call Us</h5>
-                        +254 728 094456
+                        <h5> +254 728 094456</h5>
+                        <h5> +254 758 621755</h5>
+                        <h5> +254 796 701590</h5>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6">
@@ -148,8 +150,8 @@
 
     <div class="google-map">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510564.65107988653!2d36.5177334104462!3d-1.3031873859975642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1713272990738!5m2!1sen!2ske"
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63818.14194730334!2d36.707934544908575!3d-1.3961430891936117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f05cf50f94e8d%3A0x51c29656e6fd8ca9!2sOngata%20Rongai!5e0!3m2!1sen!2ske!4v1716900257317!5m2!1sen!2ske"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
